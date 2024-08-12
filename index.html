@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/a42805eadb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Karta Produktu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="product__h1">Rustykalny stół dębowy z dokładkami Amore</h1>
+        <div class="logo">
+          <img
+            src="https://meb24.pl/skins/user/rwd_shoper_42/images/logo.webp"
+            alt="logo"
+          />
+        </div>
+      </header>
+      <main class="product">
+        <section class="product__representation">
+          <article class="product__representation-imgBox">
+            <img
+              class="product__representation-mainImg"
+              src="./images/table3.webp"
+              alt="Stół dębowy Amore."
+            />
+          </article>
+
+          <article class="product__order">
+            <div class="product__order-container">
+              <div class="product__order-box">
+                <p>Ocena:&nbsp;</p>
+                <p class="product__order-icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+              </div>
+              <div class="product__order-box">
+                <p>
+                  <i class="fa-solid fa-truck color-icon"></i> Wysyłka:&nbsp;
+                </p>
+                <p class="bold">4-7 dni roboczych</p>
+              </div>
+
+              <div class="product__order-box">
+                <p>
+                  <i class="fa-solid fa-coins color-icon"></i> Koszt
+                  dostawy:&nbsp;
+                </p>
+                <p class="bold">50 zł</p>
+              </div>
+
+              <div class="product__order-box">
+                <p>
+                  <i class="fa-solid fa-barcode color-icon"></i> Kod
+                  produktu:&nbsp;
+                </p>
+                <p class="" id="code"></p>
+              </div>
+
+              <div>
+                <p id="dimension"></p>
+              </div>
+
+              <hr />
+
+              <p id="quantity"></p>
+            </div>
+
+            <div class="">
+              <p id="price" class="price"></p>
+              <p id="tax" class="tax"></p>
+              <p id="lowestPrice"></p>
+
+              <div class="addToCard">
+                <div class="buttons">
+                  <button class="button">+</button>
+                  <button class="button">-</button>
+                </div>
+                <div class="quantityCard">1szt.</div>
+                <button class="addToCardButton">Dodaj do koszyka</button>
+              </div>
+
+              <div class="infoButtonsBox">
+                <button class="contact">
+                  <i class="fa-solid fa-phone"></i>
+                  Zapytaj o produkt
+                </button>
+                <button class="contact">
+                  <i class="fa-regular fa-envelope"></i>Zamów telefonicznie
+                  <a href="">222 222 222</a>
+                </button>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="product__moreImage">
+          <div>
+            <img
+              class="product__moreImage-img"
+              src="./images/table1.webp"
+              alt="Stół dębowy Amore rozłożony."
+            />
+            <img
+              class="product__moreImage-img"
+              src="./images/table2.jpg"
+              alt="Stół dębowy Amore w jadalni."
+            />
+            <img
+              class="product__moreImage-img"
+              src="./images/table4.webp"
+              alt="Stół dębowy Amore w salonie."
+            />
+            <img
+              class="product__moreImage-img"
+              src="./images/table6.webp"
+              alt="Kant stołu dębowego Amore."
+            />
+          </div>
+        </section>
+
+        <section>
+          <article class="product__description">
+            <h2>Opis</h2>
+            <p>
+              Stół Amore to wyjątkowy mebel, który wprowadzi do Twojego domu
+              ciepło naturalnego drewna i klasyczną elegancję. Wykonany w 100% z
+              litego drewna dębowego, zachwyca solidnością i estetyką, która
+              przetrwa lata.
+            </p>
+
+            <p>
+              Ten rustykalny stół dębowy został zaprojektowany z myślą o
+              funkcjonalności i stylu. Dzięki możliwości dołożenia dwóch
+              dokładek o długości 50 cm każda, stół Amore można przedłużyć o
+              dodatkowy metr, co czyni go idealnym rozwiązaniem zarówno na
+              codzienne posiłki, jak i większe rodzinne uroczystości. Lekko
+              zaokrąglone brzegi blatu dodają subtelnego charakteru, a
+              jednocześnie zwiększają bezpieczeństwo użytkowania.
+            </p>
+
+            <p>
+              Konstrukcja stołu gwarantuje niezrównaną stabilność i trwałość, co
+              sprawia, że jest to inwestycja na lata. Każdy egzemplarz
+              produkowany jest w Polsce z dbałością o najmniejsze detale, co
+              dodatkowo podkreśla jego unikalność i wysoką jakość wykonania.
+            </p>
+
+            <h3>Czym wyróżnia się rustykalny stół dębowy z dokładkami Amore</h3>
+            <div id="ul"></div>
+
+            <h3>Specyfikacja stołu Amore</h3>
+            <ul id="specification"></ul>
+
+            <p class="summary">
+              Stół Amore to idealne połączenie tradycji i nowoczesności. Jego
+              rustykalny charakter oraz naturalny odcień dębu sprawią, że
+              doskonale wpasuje się zarówno w klasyczne, jak i bardziej
+              współczesne wnętrza. Ten stół to nie tylko miejsce spotkań, ale i
+              stylowy element wystroju, który doda uroku każdemu pomieszczeniu.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
